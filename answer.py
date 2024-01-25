@@ -1,17 +1,28 @@
 def hello_world():
-    # Write a doc string below. Doc strings can be used to provide the user with a
-    # description of what the function does.
     """
-
+    Prints 'Hello, World!' to the console.
+    
+    This function does not take any arguments nor does it return any values.
+    It simply prints a greeting message to the console.
     """
+    
+    # Printing the greeting message to the console
+    print("Hello, World!")
 
-    # Write a comment; comments are very useful to other programmers.
+def add(a, b):
+    """
+    Adds two numbers and returns the result.
 
-    # Write a Python statement to print Hello, World!
+    Parameters:
+    - a: First number to add.
+    - b: Second number to add.
 
-def add(a,b):
+    Returns:
+    - The sum of `a` and `b`.
+    """
+    
+    # Calculating the sum of `a` and `b`
+    output = a + b
 
-    # Write simple code to add variable a and b
-    output =
+    return output 
 
-    return output
